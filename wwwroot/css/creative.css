@@ -199,7 +199,7 @@ header {
     }
 
         header .header-content .header-content-inner h1 {
-            margin-top: 0;
+            margin-top: 30px;
             margin-bottom: 0;
             /*text-transform: uppercase;*/
             font-weight: 700;
@@ -490,6 +490,13 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.img-circle{
+    display: block;
+    margin: auto;
+    border-radius: 70%;
+    max-width: 280px;
 }
 
 body {
