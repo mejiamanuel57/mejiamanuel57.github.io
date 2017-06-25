@@ -499,6 +499,12 @@ img::-moz-selection {
     max-width: 280px;
 }
 
+@media (max-width: 480px) {
+    .img-circle{
+    max-width: 200px;
+    }
+}
+
 body {
     webkit-tap-highlight-color: #222;
 }
