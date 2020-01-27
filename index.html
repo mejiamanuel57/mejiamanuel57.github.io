@@ -95,7 +95,7 @@
                     <h2 class="section-heading">About Me!</h2>
                     <hr class="light">
                     <h3 class="text-faded text-justify wow pulse">
-                        I'm a passionate software engineer with over 7 years of experience who loves to code following good practices and top-notch technologies. 
+                        I'm a passionate software engineer with over <span id="yearOfExperience"></span> years of experience who loves to code following good practices and top-notch technologies. 
                         I primarily work with web applications, and recently I have been helping companies to implement <a class="vuejs" target="_blank" href="https://vuejs.org/">Vue.js.</a> 
                         I consider myself curious and always looking for new ideas to improve products.
                     </h3>    
@@ -248,6 +248,10 @@
     </section>
     <!-- End Principal Content -->
 
+    <script>
+        var yearOfExperience = new Date().getFullYear() - 2013;
+        document.getElementById("yearOfExperience").innerHTML = yearOfExperience;
+    </script>
     <!-- jQuery -->
     <script src="wwwroot/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -258,7 +262,6 @@
     <script src="wwwroot/js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="wwwroot/js/creative.js"></script>
-
 </body>
 
 </html>
