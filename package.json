@@ -1,0 +1,31 @@
+{
+  "name": "manuel-mejia-jr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --dest docs",
+    "lint": "vue-cli-service lint",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11",
+    "vue2-smooth-scroll": "^1.2.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1",
+    "vue-svg-loader": "^0.16.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
