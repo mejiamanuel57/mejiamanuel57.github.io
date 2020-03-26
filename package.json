@@ -12,6 +12,7 @@
     "core-js": "^3.6.4",
     "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
+    "vue-gtag": "^1.6.2",
     "vue2-smooth-scroll": "^1.2.0"
   },
   "devDependencies": {
