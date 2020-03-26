@@ -9,7 +9,12 @@
       scrolling="yes"
       frameborder="0"
     ></iframe>
-    <a class="text-green-700 hover:text-green-900" target="_blank" href="https://blog.manuelmejiajr.com/">
+    <a
+      class="text-2xl text-green-700 hover:text-green-900"
+      target="_blank"
+      rel="noopener"
+      href="https://blog.manuelmejiajr.com/"
+    >
       MORE POSTS...
     </a>
   </div>

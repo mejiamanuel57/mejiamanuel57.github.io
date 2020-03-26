@@ -1,5 +1,5 @@
 <template>
-  <div id="podcast" class="flex flex-col items-center bg-green-700 text-white pt-10 pb-20 px-5">
+  <div id="podcast" class="flex flex-col items-center bg-gray-200 text-green-700 pt-10 pb-20 px-5">
     <p class="text-4xl font-bold mb-10">Podcast 🎙️</p>
     <div class="flex flex-row flex-wrap mb-10">
       <iframe
@@ -16,15 +16,16 @@
       ></iframe>
     </div>
 
-    <p class="text-base mb-5">Listen us on:</p>
+    <h1 class="text-2xl mb-5">Listen us on:</h1>
     <div class="flex flex-row">
       <a
         v-for="(source, index) in podcastSources"
         :key="index"
-        class="w-3/12 mx-4 md:mx-10 hover:text-green-700 text-center"
+        class="w-3/12 mx-4 md:mx-10 hover:text-green-400 text-center"
         :aria-label="source.name"
         :href="source.link"
         target="_blank"
+        rel="noopener"
       >
         <component :is="source.icon" class="fill-current" height="48" width="48" />
       </a>

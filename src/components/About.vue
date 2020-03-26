@@ -1,34 +1,36 @@
 <template>
   <div
-    class="flex flex-col bg-cover bg-center items-center text-center text-white pt-24 pb-64 px-5"
+    class="flex flex-col bg-cover bg-center items-center text-center text-white pt-12 md:pt-24 pb-64 px-5"
     :style="{ backgroundImage: 'url(' + require('@/assets/images/background.jpg') + ')' }"
   >
-    <img alt="Manuel Mejia Jr." class="h-64 mx-auto rounded-full" src="@/assets/images/photo.jpg" />
-    <p class="text-6xl">Hello, I'm Manuel.</p>
-    <p class="md:w-9/12 text-2xl mb-10">
+    <img alt="Manuel Mejia Jr." class="h-32 md:h-64 mx-auto rounded-full" src="@/assets/images/photo.jpg" />
+    <p class="text-4xl md:text-6xl">Hello, I'm Manuel.</p>
+    <p class="md:w-9/12 text-xl md:text-2xl mb-10">
       I'm a Software Engineer/Consultant, currently helping to build web apps with
-      <a class="font-bold hover:text-green-400" target="_blank" href="https://vuejs.org/">Vue.js💚.</a>
+      <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://vuejs.org/">Vue.js💚.</a>
       I like to work on new projects following good practices and using top-notch technologies. In my spare time, I like
       to blog and create tutorials. Also, I'm a co-host of a dev podcast,
-      <a class="font-bold hover:text-green-400" target="_blank" href="https://linktr.ee/ligadelcodigo"
+      <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://linktr.ee/ligadelcodigo"
         >@LigaDelCodigo.</a
       >.
     </p>
     <div class="flex flex-row">
       <a
         aria-label="Manuel Mejia Jr. GitHub"
-        class="mr-4 hover:text-green-700"
+        class="mr-4 hover:text-green-400"
         color="red"
         href="https://github.com/mejiamanuel57"
         target="_blank"
+        rel="noopener"
       >
         <IconGithub class="fill-current" height="32" width="32" />
       </a>
       <a
         aria-label="Manuel Mejia Jr. Twitter"
-        class="ml-4 hover:text-green-700"
+        class="ml-4 hover:text-green-400"
         href="https://twitter.com/mejiamanuel57"
         target="_blank"
+        rel="noopener"
       >
         <IconTwitter class="fill-current" height="32" width="32" />
       </a>
