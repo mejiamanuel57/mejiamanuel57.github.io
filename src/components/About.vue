@@ -15,10 +15,21 @@
       >.
     </p>
     <div class="flex flex-row">
-      <a class="mr-4 hover:text-green-700" color="red" href="https://github.com/mejiamanuel57" target="_blank">
+      <a
+        aria-label="Manuel Mejia Jr. GitHub"
+        class="mr-4 hover:text-green-700"
+        color="red"
+        href="https://github.com/mejiamanuel57"
+        target="_blank"
+      >
         <IconGithub class="fill-current" height="32" width="32" />
       </a>
-      <a class="ml-4 hover:text-green-700" href="https://twitter.com/mejiamanuel57" target="_blank">
+      <a
+        aria-label="Manuel Mejia Jr. Twitter"
+        class="ml-4 hover:text-green-700"
+        href="https://twitter.com/mejiamanuel57"
+        target="_blank"
+      >
         <IconTwitter class="fill-current" height="32" width="32" />
       </a>
     </div>
