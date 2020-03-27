@@ -1,4 +1,6 @@
-# manuel-mejia-jr
+# Manuel Mejia Jr.
+
+### Feel free to copy this project for any personal purpose, but don't forget to say thanks. 🙂
 
 ## Project setup
 ```
@@ -10,9 +12,9 @@ npm install
 npm run dev
 ```
 
-### Compiles and minifies for production
+### Lints, compiles, minifies and deploys for production
 ```
-npm run build
+npm run deploy
 ```
 
 ### Lints and fixes files
