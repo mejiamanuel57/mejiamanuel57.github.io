@@ -16,31 +16,54 @@
     </p>
     <div class="flex flex-row">
       <a
-        aria-label="Manuel Mejia Jr. GitHub"
-        class="mr-4 hover:text-green-400"
-        color="red"
-        href="https://github.com/mejiamanuel57"
+        v-for="(profile, index) in profiles"
+        :key="index"
+        class="mx-6 hover:text-green-400"
+        :aria-label="profile.name"
+        :href="profile.link"
         target="_blank"
         rel="noopener"
       >
-        <IconGithub class="fill-current" height="32" width="32" />
-      </a>
-      <a
-        aria-label="Manuel Mejia Jr. Twitter"
-        class="ml-4 hover:text-green-400"
-        href="https://twitter.com/mejiamanuel57"
-        target="_blank"
-        rel="noopener"
-      >
-        <IconTwitter class="fill-current" height="32" width="32" />
+        <component :is="profile.icon" class="fill-current w-8 h-8" />
       </a>
     </div>
   </div>
 </template>
 
 <script>
-import { IconGithub, IconTwitter } from '../assets/icons'
+import { IconTwitter, IconGithub, IconLinkedin, IconStackoverflow } from '../assets/icons'
 export default {
-  components: { IconGithub, IconTwitter }
+  components: {
+    IconTwitter,
+    IconGithub,
+    IconLinkedin,
+    IconStackoverflow
+  },
+  data() {
+    return {
+      profiles: [
+        {
+          name: 'Manuel Mejia Jr. - Twitter',
+          icon: 'IconTwitter',
+          link: 'https://twitter.com/mejiamanuel57'
+        },
+        {
+          name: 'Manuel Mejia Jr. - GitHub',
+          icon: 'IconGithub',
+          link: 'https://github.com/mejiamanuel57'
+        },
+        {
+          name: 'Manuel Mejia Jr. - Stack Overflow',
+          icon: 'IconStackoverflow',
+          link: 'https://stackoverflow.com/users/2958543/mejiamanuel57?tab=profile'
+        },
+        {
+          name: 'Manuel Mejia Jr. - LinkedIn',
+          icon: 'IconLinkedin',
+          link: 'https://www.linkedin.com/in/mejiamanuel57/'
+        }
+      ]
+    }
+  }
 }
 </script>

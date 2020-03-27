@@ -1,7 +1,8 @@
 <template>
-  <div class="flex flex-wrap justify-center text-green-700 p-5">
+  <div class="flex flex-row flex-wrap justify-center text-green-700 p-5">
+    <p class="md:mr-4">© {{ currentYear }} Manuel Mejia Jr.</p>
     <p>
-      © {{ currentYear }} Manuel Mejia Jr. Made with
+      Made with
       <a class="font-bold hover:text-green-400" href="https://vuejs.org/">Vue.js</a> +
       <a class="font-bold hover:text-green-400" href="https://tailwindcss.com/">Tailwind CSS</a>
     </p>
@@ -11,7 +12,9 @@
 <script>
 export default {
   data() {
-    return { currentYear: new Date().getFullYear() }
+    return {
+      currentYear: new Date().getFullYear()
+    }
   }
 }
 </script>
