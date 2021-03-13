@@ -6,12 +6,13 @@
     <img alt="Manuel Mejia Jr." class="h-32 md:h-64 mx-auto rounded-full" src="@/assets/images/photo.jpg" />
     <p class="text-4xl md:text-6xl">Hello, I'm Manuel.</p>
     <p class="md:w-9/12 text-xl md:text-2xl mb-10">
-      I'm a Software Engineer/Consultant, currently helping to build web apps with
-      <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://vuejs.org/">Vue.js💚.</a>
-      I like to work on new projects following good practices and using top-notch technologies. In my spare time, I like
-      to blog and create tutorials. Also, I'm a co-host of a dev podcast,
+      I’m a Software Engineer currently working as Tech Lead at
+      <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://www.buildinglink.com/">
+        BuildingLink</a
+      >. I like to work on new projects following good practices and using top-notch technologies. In my spare time, I
+      like to blog and create tutorials. Also, I'm a co-host of a dev podcast,
       <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://linktr.ee/ligadelcodigo"
-        >@LigaDelCodigo.</a
+        >@LigaDelCodigo</a
       >.
     </p>
     <div class="flex flex-row">

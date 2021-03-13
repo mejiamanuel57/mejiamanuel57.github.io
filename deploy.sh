@@ -3,9 +3,9 @@ set -e
 
 # build
 echo Linting..
-npm run lint
+yarn run lint
 echo Building. this may take a minute...
-npm run build
+yarn run build
 
 # navigate into the build output directory
 cd docs

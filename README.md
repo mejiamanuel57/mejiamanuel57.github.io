@@ -4,22 +4,22 @@
 
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run dev
+yarn dev
 ```
 
-### Lints, compiles, minifies and deploys for production
+### Lints, compiles, minifies, commits and deploys for production
 ```
-npm run deploy
+yarn deploy
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn lint
 ```
 
 ### Customize configuration
