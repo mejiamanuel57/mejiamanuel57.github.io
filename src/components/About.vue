@@ -10,7 +10,7 @@
       <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://www.buildinglink.com/">
         BuildingLink</a
       >. I like to work on new projects following good practices and using top-notch technologies. In my spare time, I
-      like to blog and create tutorials. Also, I'm a co-host of a dev podcast,
+      enjoy sharing what I learn on my blog. Also, I'm a co-host of a dev podcast,
       <a class="font-bold hover:text-green-400" target="_blank" rel="noopener" href="https://linktr.ee/ligadelcodigo"
         >@LigaDelCodigo</a
       >.
